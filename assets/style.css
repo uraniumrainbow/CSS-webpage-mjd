@@ -48,3 +48,9 @@ aside:after {
     border-left: 3px rgb(16, 16, 74);
     height: 100%;
   }
+
+  aside p {
+    font-size: 14px;
+    padding-left: 215px;
+    display: flex;
+  }
