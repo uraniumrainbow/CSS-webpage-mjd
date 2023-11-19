@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Portfolio Webpage</title>
+    <title>Maximillian's Webpage!</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/reset.css" /> 
@@ -11,29 +11,87 @@
 
   <body>
     <header>
-      <h1>Maximillian</h1>
+      <h1>
+          <a href="#">Maximillian's Portfolio</a>
+      </h1>
       <nav>
         <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+          <li><a href="www.linkedin.com">Resume</a></li>
         </ul>
       </nav>
     </header>
 
-    <aside>
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a diam vitae mauris viverra aliquet sed at massa. Aenean laoreet accumsan turpis non dignissim. Nunc eu dictum justo, at accumsan urna. Integer scelerisque quis diam in rutrum. Duis non scelerisque nisl. Donec id augue blandit, accumsan lorem at, semper enim. Pellentesque erat odio, rutrum eu magna sit amet, dapibus pellentesque ante. Nunc blandit massa mi, quis ornare nisl volutpat eget. Nullam ac lacus metus. Ut sagittis, urna quis accumsan tincidunt, turpis urna congue odio, et aliquam erat lorem et arcu. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et urna mattis, faucibus augue sit amet, porta eros.
+    <section class="hero">
+      <h2>Full-Stack Website Development Studio</h2>
+    </section>
 
-          Aliquam tempus eros vel vulputate finibus. Vestibulum ac eleifend tortor, sed hendrerit ex. Vivamus feugiat sollicitudin odio, ac fringilla sem. Etiam eros quam, molestie sed purus non, tincidunt laoreet nunc. Etiam id magna risus. Nunc non sodales ligula. Aenean dapibus urna ac ante tempus dignissim. Fusce nec risus nisi. Cras non massa eros.</p>  
-    </aside>
-    <aside>
-        <h2>Work</h2>
-    </aside>
-    <aside>
-        <h2>Contact Me</h2>
-    </aside>
-    <aside>
-        <h2>Resume</h2>
-    </aside>
+    <section id="about-me" class="section">
+      <div class="me-title">
+        <h2>About Me</h2>
+        </h2>
+      </div>
+
+      <div class="flex-row">
+        <img src=".assets/images/professionalpic.jpg" class="photo" />
+        <p>
+          Hey there! Here's a little bit of my Web Developer experience.
+        </p>
+      </div>
+    </section>
+
+
+
+    <section id="work" class="section">
+      <div class="work-title">
+        <h2>
+          Work
+        </h2>
+      </div>
+
+      <div class="flex-row2">
+        <div class="main-project">
+          <div class="lofty">
+            <p><a href="https://lofty.up.railway.app/login">Lofty 🚀</a></p><br/><a>MERN-Stack Web Application</a></p></p>
+          </div>
+        </div>
+
+        <div class="side-projects">
+          <div class="football-weather">
+            <p><a href="MasterOogway489.github.io/Sports-Event-Weather-Checker">Game Day Weather Forecast</a></p>
+          </div>
+          <div class="note-taker">
+            <p><a href="https://maximillian-note-taker-3311e54d58e9.herokuapp.com/">Note Taker</a></p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me" class="section">
+      <div class="section-title">
+        <h2>
+          Contact Me
+        </h2>
+      </div>
+
+      <div class="flex-row">
+        <div class="phone">
+          <a href="tel:123-456-7890">Call Me</a>
+        </div>
+        
+        <div class="email">
+          <a href="mailto:testemail@gmail.com">Email Me</a>
+      </div>
+
+      <div class="linkedin">
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
+
+      <div class="github">
+          <a href="https://github.com/uraniumrainbow">Github</a>
+      </div>
+      </div>
+    </section>
